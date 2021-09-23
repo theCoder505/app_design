@@ -13,14 +13,13 @@ body{
     margin: 0px auto;
     max-width: 450px;
     background-color: #fff;
-    min-height: 100vh;
 }
 
 #appoinment {
     background-color: #f7f7f7;
     color: #5e5e5e;
     padding: 12px 20px;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     padding-top: 18px;
 }
@@ -28,11 +27,15 @@ body{
 .text_div {
     display: flex;
     padding: 10px 25px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .material-icons, .para_blue, .online, .startChat, .activated{
     color: #4980dd;
+}
+
+.material-icons{
+    font-size: 20px;
 }
 
 .cancel{
@@ -66,8 +69,9 @@ body{
     margin-right: -25px;
 }
 
-.all_points {
-    margin-bottom: 200px;
+.scrollingPoint {
+    height: 150px;
+    background-color: #f7f7f7;
 }
 
 
@@ -76,12 +80,11 @@ body{
 
 
 #bottomNav {
-    margin-top: 130px;
     position: fixed;
     bottom: 0px;
     left: 0px;
     background: #fff;
-    width: 100%;
+    max-width: 450px;
 }
 
 
@@ -92,7 +95,7 @@ body{
 }
 
 #bottomNav .material-icons {
-    font-size: 30px;
+    font-size: 25px;
     color: #bfbfbf;
 }
 
