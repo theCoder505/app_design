@@ -24,6 +24,10 @@ body{
     padding-top: 18px;
 }
 
+.all_points{
+    min-height: 100vh;
+}
+
 .text_div {
     display: flex;
     padding: 10px 25px;
