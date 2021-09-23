@@ -84,8 +84,7 @@ body{
     bottom: 0px;
     left: 0px;
     background: #fff;
-    max-width: 100%;
-    margin: 0px auto;
+    width: 100%;
 }
 
 
